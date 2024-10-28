@@ -1,0 +1,13 @@
+syntax = "proto3";
+package hero;
+
+message HeroRequest {
+  string foo = 1;
+}
+message HeroResponse {
+  string bar = 1;
+}
+
+service HeroService {
+  rpc GetHero(stream HeroRequest) returns (stream HeroResponse);
+}

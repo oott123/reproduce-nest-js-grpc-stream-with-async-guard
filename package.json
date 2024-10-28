@@ -1,0 +1,20 @@
+{
+  "name": "reproduce-nestjs-async-guard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "@nestjs/common": "^10.4.6",
+    "@nestjs/core": "^10.4.6",
+    "@nestjs/microservices": "^10.4.6",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
